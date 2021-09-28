@@ -1,0 +1,33 @@
+{
+  "name": "project_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx parcel src/index.html",
+    "build": "npx parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZFedorak/Project_1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZFedorak/Project_1/issues"
+  },
+  "homepage": "https://github.com/ZFedorak/Project_1#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0-rc.0",
+    "http-server": "^13.0.2",
+    "parcel": "^2.0.0-rc.0",
+    "sass": "^1.42.1"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "lodash": "^4.17.21",
+    "uuid": "^8.3.2"
+  }
+}
